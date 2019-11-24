@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Sensei No Kuruma</string>
+    <string name="Sensei_No_Kuruma">Sensei No Kuruma</string>
+    <string name="diagnostic_report">diagnostic report</string>
+    <string name="alert_system">Alert system</string>
+    <string name="diagnostic">diagnostic</string>
+    <string name="help">help</string>
+    <string name="ecu">ecu</string>
+    <string name="car">Car</string>
+    <string name="sensei_no_kuruma">Sensei No Kuruma</string>
+    <string name="contact_machanic">Contact Machanic</string>
+    <string name="special_squard">Special Squard</string>
+    <string name="emergency_call">EMERGENCY CALL</string>
+    <string name="emergency_number">Emergency Number</string>
+    <string name="plusline">PLUSLINE</string>
+    <string name="aam">AAM</string>
+    <string name="touch_n_go">TOUCH\' N GO</string>
+    <string name="angkatan_pertahanan_awam_24_jam">ANGKATAN PERTAHANAN AWAM 24 JAM</string>
+    <string name="ops_banta">OPS BANTA</string>
+    <string name="_1800_88_0000">1800-88-0000</string>
+    <string name="_1800_88_0808">1800-88-0808</string>
+    <string name="_03_2714_8888">03-2714-8888</string>
+    <string name="_03_2687_1300">03-2687-1300</string>
+    <string name="_03_8976_543">03-8976-543</string>
+    <string name="Next_Appointment">Next Appointment</string>
+    <string name="action_taken">Action Taken</string>
+    <string name="current_problem">Current Problem</string>
+    <string name="life_of_car">Life of Car</string>
+    <string name="status_of_car">Status of Car</string>
+    <string name="number_of_service">Number of service</string>
+    <string name="last_diagnostic">Last Diagnostic</string>
+    <string name="detail_of_report">Detail of report</string>
+    <string name="car_id">Car_ID</string>
+    <string name="enter_your_car_id_plat_number">Enter your car ID (plat number)</string>
+    <string name="take_your_car_picture">Take your car picture</string>
+    <string name="next">Next</string>
+    <string name="advice">advice</string>
+    <string name="lets_explore">Lets Explore</string>
+    <string name="cancel">cancel</string>
+    <string name="search">Search</string>
+    <string name="advice1">Advice</string>
+
+
+</resources>

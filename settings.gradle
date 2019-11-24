@@ -1,0 +1,3 @@
+include ':app', ':my-library-module'
+include ':app', ':senseinokuruma-snk'
+rootProject.name='Homepage'

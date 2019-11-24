@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainpage">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/back"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sensei_no_kuruma"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#22011B"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_marginTop="60dp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btncar"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:background="#FBBE21"
+                    android:drawableTop="@drawable/ic_car"
+                    android:text="@string/car"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnecu"
+                    android:drawableTop="@drawable/ic_book_black_24dp"
+                    android:text="@string/advice"
+                    android:layout_marginTop="40dp"
+                    android:background="#FFC107"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="18sp"/>
+                <Button
+                    android:id="@+id/btnhelp"
+                    android:drawableTop="@drawable/ic_help"
+                    android:text="@string/help"
+                    android:layout_marginTop="40dp"
+                    android:background="#FFC107"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="60dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/btndig"
+                    android:drawableTop="@drawable/ic_motor"
+                    android:text="@string/diagnostic"
+                    android:background="#FFC107"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="18sp"/>
+                <Button
+                    android:id="@+id/btnalert"
+                    android:drawableTop="@drawable/ic_alarm"
+                    android:text="@string/alert_system"
+                    android:layout_marginTop="40dp"
+                    android:background="#FFC107"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="18sp"/>
+                <Button
+                    android:id="@+id/btnrep"
+                    android:drawableTop="@drawable/ic_medical_history"
+                    android:text="@string/diagnostic_report"
+                    android:layout_marginTop="40dp"
+                    android:background="#FFC107"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
